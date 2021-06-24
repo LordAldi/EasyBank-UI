@@ -1,7 +1,13 @@
-import 'tailwindcss/tailwind.css'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  const Layout = Component.Layout ? Component.Layout : React.Fragment;
+
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  )
 }
 
 export default MyApp
