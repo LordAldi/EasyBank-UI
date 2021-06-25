@@ -18,6 +18,7 @@ module.exports = {
         "primary-green": "#33D35E",
         "primary-blue": "#2AB6D9",
         "bg-color": "#fafafa",
+        footer: "#2D314D",
       },
       spacing: {
         192: "48rem",

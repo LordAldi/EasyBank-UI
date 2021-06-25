@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
         </div>
         {open && (
-          <div className="  z-40  absolute top-16 w-full">
+          <div className="lg:hidden z-40  absolute top-16 w-full">
             <div className="w-full  bg-gray-100">
               <nav className="flex flex-col justify-center text-text-gray items-center py-8">
                 <div className="nav-item">Home</div>
