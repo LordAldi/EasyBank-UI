@@ -16,7 +16,7 @@ export default function Home() {
         <title>Easybank</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <div className="grid grid-cols-1 sm:grid-cols-3  max-h-screen mb-20 contain-left">
+      <div className="grid grid-cols-1 sm:grid-cols-3   mb-20 md:mb-0 max-h-192 contain-left">
         <div className="relative sm:order-1 sm:col-span-2 flex justify-end">
           <div className="relative top-0 sm:hidden">
             <Image src={bgMobile} className="" />
@@ -38,9 +38,7 @@ export default function Home() {
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
-          <div className="flex justify-center transition duration-500 ease-in-out transform hover:scale-110 items-center leading-3 bg-gradient-to-tl	from-primary-blue to-primary-green rounded-full px-8 py-4 text-white text-sm hover:opacity-50">
-            Request Invite
-          </div>
+          <div className="btn">Request Invite</div>
         </div>
       </div>
 

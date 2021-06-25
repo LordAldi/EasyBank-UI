@@ -13,4 +13,10 @@
   .contain-right {
     @apply pr-6 sm:pr-12 md:pr-24 lg:pr-32;
   }
+  .btn {
+    @apply flex justify-center transition duration-500 ease-in-out transform hover:scale-110 items-center leading-3 bg-gradient-to-tl	from-primary-blue to-primary-green rounded-full px-8 py-4 text-white text-sm hover:opacity-50;
+  }
+  .nav-item {
+    @apply mb-4 lg:mb-0 lg:mr-4 hover:text-text-black hover:border-b-4 hover:border-primary-green cursor-pointer transition duration-500 ease-in-out;
+  }
 }
