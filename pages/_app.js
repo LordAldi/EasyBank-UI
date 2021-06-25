@@ -1,5 +1,5 @@
-import '../styles/globals.css'
-
+import "../styles/globals.css";
+import React from "react";
 function MyApp({ Component, pageProps }) {
   const Layout = Component.Layout ? Component.Layout : React.Fragment;
 
@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <Component {...pageProps} />
     </Layout>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
