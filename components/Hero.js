@@ -23,7 +23,7 @@ const Hero = () => {
         <h3 className="text-4xl sm:text-5xl	text-text-black mb-4">
           Next generation digital banking
         </h3>
-        <p className="text-base sm:text-lg tracking-tighter	leading-6 font-bold sm:font-normal  text-text-gray mb-8">
+        <p className="text-base sm:text-lg tracking-tighter	leading-6 font-light  text-text-gray mb-8">
           Take your financial life online. Your Easybank account will be a
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.

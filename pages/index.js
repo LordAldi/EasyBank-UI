@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import FeatureList from "../components/FeatureList";
+import Articles from "../components/Articles";
 export default function Home() {
   return (
     <main className="bg-bg-color overflow-hidden">
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <Hero />
       <FeatureList />
+      <Articles />
     </main>
   );
 }

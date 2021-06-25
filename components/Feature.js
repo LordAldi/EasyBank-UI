@@ -11,7 +11,7 @@ const Feature = ({ title, desc, img, className, ...props }) => {
         <Image src={img} />
       </div>
       <h3 className="text-xl text-text-black mb-4">{title}</h3>
-      <p className="text-base  tracking-tighter	leading-6 font-bold lg:font-normal  text-text-gray mb-0">
+      <p className="text-base  tracking-tighter	leading-6 font-light   text-text-gray mb-0">
         {desc}
       </p>
     </div>
