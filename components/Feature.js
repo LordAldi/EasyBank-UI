@@ -8,7 +8,7 @@ const Feature = ({ title, desc, img, className, ...props }) => {
       {...props}
     >
       <div className="mb-6">
-        <Image src={img} />
+        <Image src={img} width="72" height="72" />
       </div>
       <h3 className="text-xl text-text-black mb-4">{title}</h3>
       <p className="text-base  tracking-tighter	leading-6 font-light   text-text-gray mb-0">

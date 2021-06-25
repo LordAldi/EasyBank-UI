@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Logo from "../assets/images/logo.svg";
-import Burger from "../assets/images/icon-hamburger.svg";
-import Close from "../assets/images/icon-close.svg";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -11,7 +8,7 @@ const Navbar = () => {
       <div className="bg-white z-50  sticky top-0 ">
         <div className="flex flex-row h-16 items-center contain">
           <div className="flex items-center px-6 justify-between  bg-white w-full h-full z-50 ">
-            <Image src={Logo} alt="Easybank" height="20" width="140" />
+            <Image src="/img/logo.svg" alt="Easybank" height="20" width="140" />
 
             <nav className="hidden lg:flex text-text-gray items-center">
               <div className="nav-item">Home</div>
@@ -30,9 +27,19 @@ const Navbar = () => {
               }}
             >
               {open ? (
-                <Image src={Close} alt="X" />
+                <Image
+                  src="/img/icon-close.svg"
+                  alt="X"
+                  width="18"
+                  height="19"
+                />
               ) : (
-                <Image src={Burger} alt="_" />
+                <Image
+                  src="/img/icon-hamburger.svg"
+                  alt="_"
+                  width="24"
+                  height="11"
+                />
               )}
             </div>
           </div>

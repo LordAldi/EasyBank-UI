@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../assets/images/logo-white.svg";
 import Image from "next/image";
 import Facebook from "./icons/Facebook";
 import Youtube from "./icons/Youtube";
@@ -11,7 +10,7 @@ const Footer = () => {
     <div className="bg-footer flex flex-col lg:flex-row lg:justify-between lg:items-center py-10 contain items-center justify-center">
       <div className="">
         <div className="mb-8">
-          <Image src={Logo} />
+          <Image src="/img/logo-white.svg" width="139" height="20" />
         </div>
         <div className="grid grid-cols-5 gap-4 mb-8 lg:mb-0">
           <Facebook />
