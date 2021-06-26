@@ -4,9 +4,9 @@ import currencyPic from "../assets/images/image-currency.jpg";
 import restaurantPic from "../assets/images/image-restaurant.jpg";
 import planePic from "../assets/images/image-plane.jpg";
 import confettiPic from "../assets/images/image-confetti.jpg";
-const Articles = () => {
+const Articles = (props) => {
   return (
-    <div className="contain my-20">
+    <div {...props} className="contain my-20">
       <h4 className="text-4xl sm:text-5xl	text-text-black mb-10">
         Latest Articles
       </h4>

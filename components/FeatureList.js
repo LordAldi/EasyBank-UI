@@ -4,9 +4,12 @@ import OnlineIcon from "../assets/images/icon-online.svg";
 import BudgetIcon from "../assets/images/icon-budgeting.svg";
 import OnboardIcon from "../assets/images/icon-onboarding.svg";
 import ApiIcon from "../assets/images/icon-api.svg";
-const FeatureList = () => {
+const FeatureList = (props) => {
   return (
-    <div className="bg-gray-100 w-screen contain py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 md:gap-x-8">
+    <div
+      {...props}
+      className="bg-gray-100 w-screen contain py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-8 md:gap-x-8"
+    >
       <div className="text-center lg:text-left max-w-2xl  md:col-span-2 lg:col-span-4">
         <h3 className="text-4xl sm:text-5xl	text-text-black mb-4">
           Why choose Easybank?

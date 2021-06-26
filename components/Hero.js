@@ -4,9 +4,12 @@ import bgDesktop from "../assets/images/bg-intro-desktop.png";
 import mockupImg from "../assets/images/image-mockups.png";
 import Image from "next/image";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3   mb-20 md:mb-0 max-h-192 contain-left">
+    <div
+      {...props}
+      className="grid grid-cols-1 sm:grid-cols-3   mb-20 md:mb-0 max-h-192 contain-left"
+    >
       <div className="relative sm:order-1 sm:col-span-2 flex justify-end">
         <div className="relative top-0 sm:hidden">
           <Image src={bgMobile} className="" />
