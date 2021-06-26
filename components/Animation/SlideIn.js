@@ -6,7 +6,6 @@ const SlideIn = ({ children, reverse }) => {
   const [ref, inView] = useInView({ triggerOnce: true });
   const animation = useAnimation();
   useEffect(() => {
-    console.log(inView);
     if (inView) {
       animation.start({
         x: 0,
