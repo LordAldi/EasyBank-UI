@@ -6,7 +6,7 @@ import planePic from "../assets/images/image-plane.jpg";
 import confettiPic from "../assets/images/image-confetti.jpg";
 const Articles = () => {
   return (
-    <div className="contain mt-20">
+    <div className="contain my-20">
       <h4 className="text-4xl sm:text-5xl	text-text-black mb-10">
         Latest Articles
       </h4>
